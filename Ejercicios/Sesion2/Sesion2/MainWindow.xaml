@@ -1,0 +1,36 @@
+﻿<Window 
+    x:Class="Sesion2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+		<DockPanel>
+			<Menu Height="26" DockPanel.Dock="Top">
+				<MenuItem Header="MenuItem">
+					<MenuItem Header="MenuItem" HorizontalAlignment="Left" Width="139.506666666667"/>
+					<Separator HorizontalAlignment="Left" Height="4" Width="139.507"/>
+					<MenuItem Header="MenuItem" HorizontalAlignment="Left" Width="139.506666666667"/>
+				</MenuItem>
+				<MenuItem Header="MenuItem"/>
+			</Menu>
+			<ToolBar Height="50" VerticalAlignment="Top" DockPanel.Dock="Top">
+				<Button Content="Click me"/>
+				<Separator/>
+				<Button Content="Click me again"/>
+			</ToolBar>
+			<Grid x:Name="Central" Width="517">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions><Frame x:Name="MainFrame" 
+					Source="Page1.xaml" 
+					NavigationUIVisibility="Hidden" 
+					Content="" VerticalContentAlignment="Stretch"
+					HorizontalContentAlignment="Stretch" />
+				<StatusBar Height="30" VerticalAlignment="Bottom" Grid.Row="1">
+					<Button Content="Click me"/>
+					<CheckBox Content="Check me"/>
+					<StatusBarItem Content="Read me" Height="30" VerticalAlignment="Top"/>
+				</StatusBar>
+			</Grid>
+		</DockPanel>
+</Window>

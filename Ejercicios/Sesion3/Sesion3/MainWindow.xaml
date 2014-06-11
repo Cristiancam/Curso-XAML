@@ -1,0 +1,43 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" xmlns:Convertidores="clr-namespace:Sesion3.Convertidores" x:Class="Sesion3.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+	
+	
+	<Window.Resources>
+		<Convertidores:VoidToSignConverter x:Key="VoidToSignConverter"/>
+		<Convertidores:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+		<DataTemplate x:Key="JugadoresItemTemplate">
+			<StackPanel Width="72.9">
+				<Border HorizontalAlignment="Center" 
+					Height="64" Width="64" Background="#FFC9C9C9">
+					<Image Source="{Binding Foto}" 
+					Visibility="{Binding Descubierto, Converter={StaticResource BoolToVisibilityConverter}}"/>
+				</Border>
+				<TextBlock 
+				Text="{Binding Respuesta, ConverterParameter=!!!, Converter={StaticResource VoidToSignConverter}}" 
+				TextWrapping="Wrap" TextAlignment="Center"/>
+			</StackPanel>
+		</DataTemplate>
+		<ItemsPanelTemplate x:Key="ItemsPanelTemplate">
+			<WrapPanel/>
+		</ItemsPanelTemplate>
+	</Window.Resources>
+
+
+	<Grid DataContext="{Binding Source={StaticResource MainDataSource}}">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+    	
+		<TextBlock HorizontalAlignment="Left" Margin="35,10,0,20" TextWrapping="Wrap" 
+			Text="Sesion 3" VerticalAlignment="Top" FontSize="21.333"/>
+		<ListView 
+			ItemTemplate="{DynamicResource JugadoresItemTemplate}" 
+			ItemsSource="{Binding Jugadores}" Margin="35,0,35,20" 
+			Grid.Row="1" ItemsPanel="{DynamicResource ItemsPanelTemplate}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" VerticalContentAlignment="Top"/>
+        
+	</Grid>
+</Window>

@@ -1,0 +1,24 @@
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\bin\Debug\Sesion2.exe.config
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\bin\Debug\Sesion2.exe
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\bin\Debug\Sesion2.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\MainWindow.baml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\MainWindow.g.cs
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\App.g.cs
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\Sesion2_MarkupCompile.cache
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\Sesion2.g.resources
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\Sesion2.Properties.Resources.resources
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\Sesion2.csproj.GenerateResource.Cache
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\Sesion2.exe
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\Sesion2.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\Sesion2.csprojResolveAssemblyReference.cache
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\Page1.baml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\Page2.baml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\Page1.g.cs
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\Page2.g.cs
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\Sesion2_MarkupCompile.lref
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\App.baml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion2\Sesion2\obj\Debug\SampleData\SampleDataSource\SampleDataSource.baml
+C:\Users\SoreyBibiana\OneDrive\Presentaciones\Ilimitada\Ejercicios\Sesion2\Sesion2\bin\Debug\Sesion2.exe.config
+C:\Users\SoreyBibiana\OneDrive\Presentaciones\Ilimitada\Ejercicios\Sesion2\Sesion2\obj\Debug\Sesion2.exe
+C:\Users\SoreyBibiana\OneDrive\Presentaciones\Ilimitada\Ejercicios\Sesion2\Sesion2\obj\Debug\Sesion2.pdb
