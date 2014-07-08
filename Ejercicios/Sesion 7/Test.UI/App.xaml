@@ -1,0 +1,11 @@
+<Application 
+    x:Class="Test.UI.App" 
+    xmlns:common="clr-namespace:Test.UI.Common"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    StartupUri="MainWindow.xaml" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" d1p1:Ignorable="d" xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006">
+    <Application.Resources>
+        <common:ViewModelLocator x:Key="Locator"></common:ViewModelLocator>
+    </Application.Resources>
+</Application>

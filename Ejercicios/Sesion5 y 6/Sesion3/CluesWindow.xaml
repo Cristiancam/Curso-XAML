@@ -1,0 +1,33 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        DataContext="{StaticResource Container}"
+        d:DataContext="{Binding Source={StaticResource MainDataSource}}"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Sesion3.CluesWindow"
+        Title="CluesWindow" Height="389.189" Width="300">
+	<Window.Resources>
+		<DataTemplate x:Key="CluesItemTemplate">
+			<StackPanel>
+				<TextBlock Text="{Binding Name}"/>
+				<TextBlock Text="{Binding Value}"/>
+			</StackPanel>
+		</DataTemplate>
+	</Window.Resources>
+	<Window.Background>
+		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+			<GradientStop Color="#FF0D30AA" Offset="0"/>
+			<GradientStop Color="#FF3951A2" Offset="1"/>
+		</LinearGradientBrush>
+	</Window.Background>
+	<StackPanel Margin="20" DataContext="{Binding SelectedPlayer}">
+		<Image Height="100" Source="{Binding Photo}" 
+               Visibility="{Binding WasDiscovered, Converter={StaticResource ConvertirAVisible}}"/>
+		<ListView Height="100" ItemTemplate="{DynamicResource CluesItemTemplate}" ItemsSource="{Binding Clues}">
+			
+		</ListView>
+		<TextBlock TextWrapping="Wrap" Text="¿Quién es?" Foreground="White" Margin="0,50,0,0"/>
+		<TextBox Height="23" TextWrapping="Wrap" Margin="-0.624,0,0.624,5" Text="{Binding Answer}"/>
+		<Button Command="{Binding GuessCommand}" Content="Validar"/>
+	</StackPanel>
+</Window>

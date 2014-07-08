@@ -1,0 +1,80 @@
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\bin\Debug\Sesion3.exe.config
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\bin\Debug\Sesion3.exe
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\bin\Debug\Sesion3.pdb
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\bin\Debug\Telerik.Windows.Controls.dll
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\bin\Debug\Telerik.Windows.Controls.xml
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\MainWindow.baml
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\MainWindow.g.cs
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\App.g.cs
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\Sesion3_MarkupCompile.cache
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\Sesion3_MarkupCompile.lref
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\App.baml
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\SampleData\MainDataSource\MainDataSource.baml
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\Sesion3.g.resources
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\Sesion3.Properties.Resources.resources
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\Sesion3.csproj.GenerateResource.Cache
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\Sesion3.exe
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Sesion3\Sesion3\obj\Debug\Sesion3.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\bin\Debug\Sesion3.exe.config
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\bin\Debug\Sesion3.exe
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\bin\Debug\Sesion3.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\bin\Debug\Telerik.Windows.Controls.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\bin\Debug\Telerik.Windows.Controls.xml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\obj\Debug\MainWindow.g.cs
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\obj\Debug\App.g.cs
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\obj\Debug\Sesion3_MarkupCompile.cache
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\obj\Debug\Sesion3_MarkupCompile.lref
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\obj\Debug\App.baml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\obj\Debug\MainWindow.baml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\obj\Debug\Sesion3.g.resources
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\obj\Debug\Sesion3.Properties.Resources.resources
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\obj\Debug\Sesion3.csproj.GenerateResource.Cache
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\obj\Debug\Sesion3.exe
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Sesion4\Sesion3\obj\Debug\Sesion3.pdb
+C:\Users\SoreyBibiana\Documents\visual studio 2013\Projects\Sesion4\Sesion3\obj\Debug\Sesion3.csprojResolveAssemblyReference.cache
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\Sesion3.exe.config
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\Sesion3.exe
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\Sesion3.pdb
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\MainWindow.g.cs
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\App.g.cs
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\Sesion3_MarkupCompile.cache
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\Sesion3_MarkupCompile.lref
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\Sesion3.exe
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\Sesion3.pdb
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\Telerik.Windows.Controls.dll
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\Telerik.Windows.Controls.xml
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\MainWindow.baml
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\App.baml
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\ResourceDictionary.baml
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\Sesion3.g.resources
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\Sesion3.Properties.Resources.resources
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\Sesion3.csproj.GenerateResource.Cache
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\CluesWindow.baml
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\CluesWindow.g.cs
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\Assets\Falcao.jpg
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\Assets\Ospina.jpg
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\obj\Debug\Sesion3_Content.g.cs
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\Data\Players.json
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\Newtonsoft.Json.dll
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion5\Sesion3\bin\Debug\Newtonsoft.Json.xml
