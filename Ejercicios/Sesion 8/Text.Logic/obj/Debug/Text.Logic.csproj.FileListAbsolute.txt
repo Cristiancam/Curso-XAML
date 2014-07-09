@@ -1,0 +1,16 @@
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\Text.Logic.dll.config
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\Text.Logic.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\Text.Logic.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\obj\Debug\Text.Logic.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\obj\Debug\Text.Logic.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Text.Logic\bin\Debug\GalaSoft.MvvmLight.Extras.xml
