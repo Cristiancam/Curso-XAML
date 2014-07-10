@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Autofac;
 using Autofac.Builder;
 using Test.Logic.ViewModels;
+using Text.Logic.Contracts;
+using Text.Logic.Services;
 
 namespace Test.UI.Common
 {
@@ -17,6 +19,7 @@ namespace Test.UI.Common
         {
             var builder = new ContainerBuilder();
             builder.RegisterType<MainViewModel>().As<MainViewModel>().SingleInstance();
+            builder.RegisterType<ApiService>().As<IApiService>();
 
             container = builder.Build(ContainerBuildOptions.None);
         }

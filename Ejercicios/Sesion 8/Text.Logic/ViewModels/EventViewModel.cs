@@ -10,9 +10,29 @@ namespace Test.Logic.ViewModels
 {
     public class EventViewModel : ViewModelBase
     {
-        public string Description { get; set; }
+        private string description;
+
+        public string Description
+        {
+            get { return description; }
+            set 
+            {
+                Set<string>(ref description, value);
+            }
+        }
+        
         public int Points { get; set; }
-        public bool IsSelected { get; set; }
+        private bool isSelected;
+
+        public bool IsSelected
+        {
+            get { return isSelected; }
+            set 
+            {
+                Set<bool>(ref isSelected, value);
+            }
+        }
+
 
         public ICommand SelectEventCommand
         {
@@ -24,7 +44,7 @@ namespace Test.Logic.ViewModels
 
         private void SelectEvent()
         {
-            
+            this.IsSelected = !this.IsSelected;
         }
     }
 }

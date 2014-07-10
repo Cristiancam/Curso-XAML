@@ -1,0 +1,37 @@
+c:\users\soreybibiana\documents\visual studio 2013\Projects\Test\Test.UI\bin\Debug\Test.UI.exe.config
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\Test.UI.exe
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\Test.UI.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\MainWindow.baml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\MainWindow.g.cs
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\App.g.cs
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\Test.UI_MarkupCompile.cache
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\Test.UI.g.resources
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\Test.UI.Properties.Resources.resources
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\Test.UI.csproj.GenerateResource.Cache
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\Test.UI.exe
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\Test.UI.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\Text.Logic.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\Text.Logic.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\Test.UI.csprojResolveAssemblyReference.cache
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\Test.UI_MarkupCompile.lref
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\Autofac.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\Autofac.xml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\SoreyBibiana\Documents\Visual Studio 2013\Projects\Test\Test.UI\obj\Debug\App.baml
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion 8\Test.UI\bin\Debug\Test.UI.exe.config
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion 8\Test.UI\obj\Debug\Test.UI.exe
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion 8\Test.UI\obj\Debug\Test.UI.pdb
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion 9\Test.UI\bin\Debug\Test.UI.exe.config
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion 9\Test.UI\obj\Debug\Test.UI.exe
+E:\Dropbox\GitHub\Curso-XAML\Ejercicios\Sesion 9\Test.UI\obj\Debug\Test.UI.pdb

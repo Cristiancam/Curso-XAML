@@ -1,0 +1,14 @@
+﻿<ViewModels:MainViewModel xmlns:ViewModels="clr-namespace:Test.Logic.ViewModels;assembly=Text.Logic" TotalPoints="31">
+	<ViewModels:MainViewModel.Events>
+		<ViewModels:EventViewModel Description="Class maecenas aliquam" IsSelected="True" Points="59"/>
+		<ViewModels:EventViewModel Description="Integer vestibulum praesent accumsan" IsSelected="False" Points="82"/>
+		<ViewModels:EventViewModel Description="Aenean quisque vivamus curae" IsSelected="True" Points="69"/>
+		<ViewModels:EventViewModel Description="Cras adipiscing curabitur donec" IsSelected="False" Points="22"/>
+		<ViewModels:EventViewModel Description="Nam sed mauris parturient vestibulum" IsSelected="True" Points="27"/>
+		<ViewModels:EventViewModel Description="Nullam bibendum vestibulum etiam" IsSelected="False" Points="92"/>
+		<ViewModels:EventViewModel Description="Phasellus adipiscing dis parturient" IsSelected="True" Points="44"/>
+		<ViewModels:EventViewModel Description="Consequat dictumst eleifend" IsSelected="False" Points="11"/>
+		<ViewModels:EventViewModel Description="Aptent fusce est vestibulum" IsSelected="True" Points="13"/>
+		<ViewModels:EventViewModel Description="Hac aliquam auctor aliquet" IsSelected="False" Points="44"/>
+	</ViewModels:MainViewModel.Events>
+</ViewModels:MainViewModel>
