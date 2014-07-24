@@ -1,0 +1,54 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Converters="clr-namespace:Test.UI.Converters" 
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:Custom="http://www.galasoft.ch/mvvmlight" 
+        xmlns:Controls="clr-namespace:Test.UI.Controls" 
+        mc:Ignorable="d" x:Class="Test.UI.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Converters:StatusToColorConverter x:Key="StatusToColorConverter"/>
+        <DataTemplate x:Key="EventViewModelTemplate1">
+        	<Border Background="{Binding IsSelected, Converter={StaticResource StatusToColorConverter}}" Padding="5,6.2,5,5" CornerRadius="5">
+        		<i:Interaction.Triggers>
+        			<i:EventTrigger EventName="MouseDown">
+        				<Custom:EventToCommand Command="{Binding SelectEventCommand}"/>
+        			</i:EventTrigger>
+        		</i:Interaction.Triggers>
+        		<TextBlock Text="{Binding Description}"/>
+        	</Border>
+        </DataTemplate>
+    </Window.Resources>
+	<d:DataContext>
+		<Binding Source="{StaticResource NewSampleDataSource}"/>
+	</d:DataContext>
+
+    <Window.DataContext>
+        <Binding Path="Main" Source="{StaticResource Locator}"/>
+    </Window.DataContext>
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="50"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Viewbox Margin="0" HorizontalAlignment="Left">
+			<StackPanel Orientation="Horizontal" Height="15.96">
+				<TextBlock TextWrapping="Wrap" FontWeight="Bold" Margin="0,0,5,0" Text="Total: " Foreground="Black"/>
+				<TextBlock TextWrapping="Wrap" Text="{Binding TotalPoints}" Foreground="#FF040404"/>
+			</StackPanel>
+		</Viewbox>
+		<ListView 
+			ItemTemplate="{DynamicResource EventViewModelTemplate1}" 
+			ItemsSource="{Binding Events}" Margin="0,0,211,0" Grid.Row="1"/>
+		<Controls:Formulario HorizontalAlignment="Left" 
+		VerticalAlignment="Top" Grid.Row="1" 
+		Margin="311,10,0,0" FormBackground="#FF5BBD99" Event="{Binding Description, Mode=TwoWay}" 
+		DataContext="{Binding NewEvent}" Points="{Binding Points, Mode=TwoWay}" 
+		SaveCommand="{Binding SaveCommand}"/>
+		<Slider x:Name="slider" HorizontalAlignment="Left" Margin="320,204,0,0" Grid.Row="1" VerticalAlignment="Top" Width="175" Value="43" Maximum="100"/>
+		<TextBlock HorizontalAlignment="Left" Margin="320,227,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Text="{Binding Value, ElementName=slider}"/>
+	</Grid>
+</Window>
