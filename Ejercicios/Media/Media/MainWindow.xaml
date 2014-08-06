@@ -1,0 +1,124 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Media.MainWindow"
+        Title="MainWindow" Height="298" Width="476">
+	<Window.Resources>
+		<Storyboard x:Key="Spark" AutoReverse="True" RepeatBehavior="Forever">
+			<ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)" Storyboard.TargetName="path">
+				<EasingColorKeyFrame KeyTime="0" Value="#FF79FF1D"/>
+				<EasingColorKeyFrame KeyTime="0:0:1" Value="#FF1158F1"/>
+			</ColorAnimationUsingKeyFrames>
+		</Storyboard>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="btnPlay">
+			<EventTrigger.Actions>
+                <BeginStoryboard x:Name="myBegin">
+                    <Storyboard SlipBehavior="Slip">
+                        <MediaTimeline
+                            Storyboard.TargetName="media"
+                            BeginTime="0:0:0"
+							RepeatBehavior="Forever"
+                            CurrentTimeInvalidated="MediaTimeline_CurrentTimeInvalidated" 
+							Source="Recursos/Video.mpg"/>
+                    </Storyboard>
+                </BeginStoryboard>
+                <BeginStoryboard x:Name="Spark_BeginStoryboard" Storyboard="{StaticResource Spark}"/>
+			</EventTrigger.Actions>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="btnStop">
+			<EventTrigger.Actions>
+                <StopStoryboard BeginStoryboardName="myBegin" />
+                <StopStoryboard BeginStoryboardName="Spark_BeginStoryboard"/>
+            </EventTrigger.Actions>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="btnPause">
+			<EventTrigger.Actions>
+                <PauseStoryboard BeginStoryboardName="myBegin" />
+                <PauseStoryboard BeginStoryboardName="Spark_BeginStoryboard"/>
+            </EventTrigger.Actions>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="btnResume">
+			<EventTrigger.Actions>
+                <ResumeStoryboard BeginStoryboardName="myBegin" />
+                <ResumeStoryboard BeginStoryboardName="Spark_BeginStoryboard"/>
+            </EventTrigger.Actions>
+		</EventTrigger>
+	</Window.Triggers>
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="100"/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="50"/>
+		</Grid.RowDefinitions>
+		<MediaElement x:Name="sound" Grid.Column="1" 
+		    Source="Recursos/Black.mp3"
+			UnloadedBehavior="Manual" 
+			LoadedBehavior="Manual" 
+			Balance="{Binding Value, ElementName=slBalance, Mode=TwoWay}" 
+			Volume="{Binding Value, ElementName=slVolume, Mode=TwoWay}"/>
+		<Grid Grid.Column="1" >
+			<Grid.RowDefinitions>
+				<RowDefinition Height="191*"/>
+				<RowDefinition Height="26*"/>
+			</Grid.RowDefinitions>
+			<MediaElement x:Name="media" 
+				UnloadedBehavior="Manual" 
+				LoadedBehavior="Manual" 
+				Balance="{Binding Value, ElementName=slBalance, Mode=TwoWay}" 
+				Volume="{Binding Value, ElementName=slVolume, Mode=TwoWay}" MediaEnded="media_MediaEnded" MediaOpened="media_MediaOpened"/>
+			<Slider x:Name="slPosition" Grid.Row="1" Background="#FFD40074"/>
+		</Grid>
+		<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top" Height="60" Width="57">
+			<Grid>
+				<Grid x:Name="backgroundGrid" Width="256" Height="256" Visibility="Collapsed" />
+				<Path x:Name="path" Data="M45.381813,25.101999C47.711283,25.101999 49.581915,26.979967 49.581915,29.310321 49.581915,31.627424 47.711283,33.507999 45.381813,33.507999 43.062883,33.507999 41.178888,31.627424 41.178888,29.310321 41.178888,26.979967 43.062883,25.101999 45.381813,25.101999z M45.446753,21.190334C40.983128,21.190334 37.369207,24.80754 37.369207,29.26855 37.369207,33.727058 40.983128,37.346668 45.446753,37.346668 49.907677,37.346668 53.523598,33.727058 53.523598,29.26855 53.523598,24.80754 49.907677,21.190334 45.446753,21.190334z M15.679866,16.137094C16.072743,16.148141 16.513174,16.244556 16.963213,16.501665 16.963213,16.501665 17.525123,21.236024 18.615544,22.27264 18.615543,22.27264 20.188472,23.923492 20.573879,24.12959 20.573879,24.12959 25.624871,27.738874 26.555089,32.379554 26.555089,32.379554 27.792211,38.467925 23.158726,43.928802 23.158726,43.928802 21.132489,45.480995 21.626698,43.103607 21.626698,43.103607 25.00896,38.155429 22.947723,33.001552 22.947722,33.001552 21.71,28.360973 17.275119,27.121778L17.994432,47.749088C17.994432,47.749088 18.615543,52.902862 11.502814,54.762256 11.502813,54.762256 1.6646328,56.821845 0.1907959,50.738773 0.1907959,50.738773 -1.751379,45.249099 6.7573261,42.38441 6.7573261,42.38441 12.274327,40.892215 13.650652,43.311607L14.181362,16.501665C14.181362,16.501665,14.815536,16.112789,15.679866,16.137094z M46.702217,5.1760434C46.142382,5.1774225,45.828617,5.2110681,45.828617,5.2110681L44.460899,18.343904C44.460899,18.343904 46.930153,18.286704 48.494562,18.736904 50.288658,19.242303 51.97146,20.836 51.97146,20.836L59.032948,9.3985609C53.839733,5.5777625,48.701633,5.1711187,46.702217,5.1760434z M45.474503,0C61.244648,-6.4932237E-08 74.035004,12.78669 74.035004,28.5573 74.035004,44.338714 61.244648,57.123001 45.474503,57.123001 37.093214,57.123001 29.556174,53.514934 24.331791,47.766223L24.100412,47.505435 24.403328,47.357158C24.784209,47.153606,25.097616,46.937034,25.322949,46.765098L25.629645,46.533199 25.879641,46.241699C31.570864,39.530799 30.120382,31.986299 30.053985,31.6816 28.878201,25.825199 23.286678,21.67675 22.653187,21.223619L22.572989,21.17382C22.341991,20.96825 21.819899,20.45507 21.337906,19.952629 21.068509,19.312 20.685014,17.55175 20.510517,16.08007L20.374,14.919897 20.69639,14.343217C25.625133,5.7721166,34.874639,-6.4932237E-08,45.474503,0z" Stretch="Uniform" Fill="#FFDEDEDE" Width="138" Height="138" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
+					<Path.RenderTransform>
+						<TransformGroup>
+							<RotateTransform Angle="0" />
+							<ScaleTransform ScaleX="1" ScaleY="1" />
+						</TransformGroup>
+					</Path.RenderTransform>
+				</Path>
+			</Grid>
+		</Viewbox>
+		<Grid Grid.Row="1" Grid.Column="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+			<Button x:Name="btnPlay" Content="Play" Click="btnPlay_Click"/>
+			<Button x:Name="btnStop" Content="Stop" Margin="0" Grid.Column="1" Click="btnStop_Click"/>
+			<Button x:Name="btnPause" Content="Pause" Margin="0" Grid.Column="2" Click="btnPause_Click"/>
+			<Button x:Name="btnResume" Content="Resume" Margin="0" Grid.Column="3" Click="btnResume_Click"/>
+		</Grid>
+		<Border x:Name="Info" Grid.Column="2" Grid.RowSpan="2" Padding="10" Background="Black">
+			<StackPanel>
+				<TextBlock TextWrapping="Wrap" Text="Position" Foreground="White" FontWeight="Bold"/>
+				<TextBlock x:Name="lblPosition" TextWrapping="Wrap" Foreground="White" Text="00:00:00"/>
+				<TextBlock TextWrapping="Wrap" Text="Volume" Foreground="White" FontWeight="Bold"/>
+				<TextBlock TextWrapping="Wrap" Text="{Binding Value, ElementName=slVolume}" Foreground="White"/>
+				<TextBlock TextWrapping="Wrap" Text="Balance" Foreground="White" FontWeight="Bold"/>
+				<TextBlock TextWrapping="Wrap" Text="{Binding Value, ElementName=slBalance}" Foreground="White"/>
+				<TextBlock TextWrapping="Wrap" Text="Speed" Foreground="White" FontWeight="Bold"/>
+				<TextBlock TextWrapping="Wrap" Text="{Binding Value, ElementName=slSpeedRatio}" Foreground="White"/>
+				<TextBlock TextWrapping="Wrap" Text="Source" Foreground="White" FontWeight="Bold"/>
+				<TextBlock TextWrapping="Wrap" Text="{Binding Source, ElementName=media}" Foreground="White"/>
+			</StackPanel>
+		</Border>
+		<StackPanel x:Name="Controls" Orientation="Horizontal" Grid.RowSpan="2">
+			<Slider x:Name="slVolume" Orientation="Vertical" HorizontalAlignment="Center" TickPlacement="Both" Foreground="White" Maximum="1" LargeChange="0.2" TickFrequency="0.1" Background="#FFDC7E0C"/>
+			<Slider x:Name="slBalance" Orientation="Vertical" HorizontalAlignment="Center" TickPlacement="Both" Foreground="White" Maximum="1" LargeChange="0.2" TickFrequency="0.5" Background="#FF258003" Minimum="-1" SmallChange="0.5"/>
+			<Slider x:Name="slSpeedRatio" Orientation="Vertical" HorizontalAlignment="Center" TickPlacement="Both" Foreground="White" Maximum="3" TickFrequency="0.5" Background="#FF030E80" Minimum="1" SmallChange="0.5" Value="{Binding SpeedRatio, ElementName=media, Mode=TwoWay}"/>
+        
+		</StackPanel>
+        
+	</Grid>
+</Window>

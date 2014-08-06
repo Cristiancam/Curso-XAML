@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Eventos.UI" x:Class="Eventos.UI.MainWindow"
+        Title="MainWindow" Height="350" Width="525" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="153*"/>
+			<ColumnDefinition Width="364*"/>
+		</Grid.ColumnDefinitions>
+		<local:MenuControl/>
+		<Frame Content="Frame" Grid.Column="1" 
+			Source="/Eventos.UI;component/EventInfoPage.xaml"/>
+        
+		
+        
+	</Grid>
+</Window>
