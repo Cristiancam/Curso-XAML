@@ -23,5 +23,7 @@ namespace Events.Logic.Models
         public string Url { get; set; }
         [JsonProperty("copyRight")]
         public string CopyRight { get; set; }
+
+        public string Sponsors { get; set; }
     }
 }

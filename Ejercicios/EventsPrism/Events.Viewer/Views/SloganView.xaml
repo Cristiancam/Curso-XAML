@@ -6,7 +6,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Background="#FFFF0B0B">
-        <TextBlock HorizontalAlignment="Center" Margin="0,0,-0.001,0" TextWrapping="Wrap" Text="Informacion del evento" VerticalAlignment="Center" Foreground="White" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,0,-0.001,0" TextWrapping="Wrap"
+                   Text="{Binding Slogan}" VerticalAlignment="Center" Foreground="White" TextAlignment="Center"/>
 
     </Grid>
 </UserControl>

@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace Events.Viewer.ViewModels
 {
-    public class SponsorsViewModel : ISponsorsViewModel
+    public class EventViewModel : IEventViewModel
     {
         IApiService apiService;
-        public SponsorsViewModel(ISponsorsView view, IApiService apiService)
+        public EventViewModel(IEventView view, IApiService apiService)
         {
             this.View = view;
             this.View.ViewModel = this;
@@ -23,11 +23,15 @@ namespace Events.Viewer.ViewModels
         private void LoadEventInfo()
         {
             var eventInfo = apiService.GetEventInfo("Fake");
+            
             this.Sponsors = eventInfo.Sponsors;
+            this.Slogan = eventInfo.Description;
         }
 
-        public Views.ISponsorsView View { get; set; }
+        public Views.IEventView View { get; set; }
 
         public string Sponsors { get; set; }
+
+        public string Slogan { get; set; }
     }
 }

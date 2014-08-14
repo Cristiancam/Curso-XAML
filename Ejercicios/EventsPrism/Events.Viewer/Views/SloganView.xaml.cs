@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Events.Viewer.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,11 +19,24 @@ namespace Events.Viewer.Views
     /// <summary>
     /// Interaction logic for SloganView.xaml
     /// </summary>
-    public partial class SloganView : UserControl
+    public partial class SloganView : UserControl, ISloganView
     {
         public SloganView()
         {
             InitializeComponent();
+        }
+
+
+        IEventViewModel IEventView.ViewModel
+        {
+            get
+            {
+                return this.DataContext as IEventViewModel;
+            }
+            set
+            {
+                this.DataContext = value;
+            }
         }
     }
 }

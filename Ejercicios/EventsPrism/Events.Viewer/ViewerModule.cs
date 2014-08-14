@@ -1,4 +1,5 @@
-﻿using Events.Viewer.ViewModels;
+﻿using Events.Viewer.Services;
+using Events.Viewer.ViewModels;
 using Events.Viewer.Views;
 using Microsoft.Practices.Prism.Modularity;
 using Microsoft.Practices.Prism.Regions;
@@ -26,7 +27,11 @@ namespace Events.Viewer
         {
             RegisterDataTypes();
 
-            regionManager.RegisterViewWithRegion("SloganRegion", typeof(SloganView));
+            if (regionManager.Regions.ContainsRegionWithName("SloganRegion"))
+            {
+                regionManager.Regions["SloganRegion"]
+                    .Add(this.container.Resolve<ISloganViewModel>().View);
+            }
 
             if (regionManager.Regions.ContainsRegionWithName("SponsorsRegion"))
             {
@@ -37,8 +42,14 @@ namespace Events.Viewer
 
         private void RegisterDataTypes()
         {
+
+            container.RegisterType<IEventViewModel, EventViewModel>();
             container.RegisterType<ISponsorsView, SponsorsView>();
-            container.RegisterType<ISponsorsViewModel, SponsorsViewModel>();
+            //container.RegisterType<ISponsorsViewModel, SponsorsViewModel>();
+            container.RegisterType<ISloganView, SloganView>();
+            //container.RegisterType<ISloganViewModel, SloganViewModel>();
+            container.RegisterType<IApiService, ApiService>();
+
         }
     }
 }

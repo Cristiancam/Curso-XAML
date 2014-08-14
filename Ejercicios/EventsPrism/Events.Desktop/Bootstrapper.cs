@@ -22,6 +22,7 @@ namespace Events.Desktop
         protected override void InitializeShell()
         {
             base.InitializeShell();
+
             App.Current.MainWindow = (Window)this.Shell;
             App.Current.MainWindow.Show();
         }

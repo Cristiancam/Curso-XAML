@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Events.Viewer.Views
 {
-    public interface ISponsorsView : IEventView
+    public interface IEventView
     {
-        
+        IEventViewModel ViewModel { get; set; }
     }
 }

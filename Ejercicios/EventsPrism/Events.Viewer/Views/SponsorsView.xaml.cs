@@ -26,11 +26,11 @@ namespace Events.Viewer.Views
             InitializeComponent();
         }
 
-        public ViewModels.ISponsorsViewModel ViewModel
+        public ViewModels.IEventViewModel ViewModel
         {
             get
             {
-                return this.DataContext as ISponsorsViewModel;
+                return this.DataContext as IEventViewModel;
             }
             set
             {
