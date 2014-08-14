@@ -95,6 +95,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="ViewerModule.cs" />
+    <Compile Include="ViewModels\SponsorsViewModel.cs" />
+    <Compile Include="ViewModels\ISponsorsViewModel.cs" />
+    <Compile Include="Views\ISponsorsView.cs" />
     <Compile Include="Views\SloganView.xaml.cs">
       <DependentUpon>SloganView.xaml</DependentUpon>
     </Compile>

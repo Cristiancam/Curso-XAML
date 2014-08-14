@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Events.Viewer.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,11 +19,23 @@ namespace Events.Viewer.Views
     /// <summary>
     /// Interaction logic for SponsorsView.xaml
     /// </summary>
-    public partial class SponsorsView : UserControl
+    public partial class SponsorsView : UserControl, ISponsorsView
     {
         public SponsorsView()
         {
             InitializeComponent();
+        }
+
+        public ViewModels.ISponsorsViewModel ViewModel
+        {
+            get
+            {
+                return this.DataContext as ISponsorsViewModel;
+            }
+            set
+            {
+                this.DataContext = value;
+            }
         }
     }
 }
